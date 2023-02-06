@@ -68,7 +68,7 @@ a:hover{
 }
 
 .intro{
-    display:none;
+    display:block;
     z-index: 100;
     position:fixed;
     top: 1vw;
@@ -78,6 +78,11 @@ a:hover{
     font-size: 1.5vw ;
 }
 
-.H1:hover .intro{
+.H1:hover + .intro{
     display: block;
+
+}
+
+.spacebar{
+    display: none;
 }
