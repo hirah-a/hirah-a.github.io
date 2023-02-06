@@ -1,0 +1,83 @@
+
+body{
+    background-color: rgb(249, 249, 232);
+    color: black;
+}
+
+.dark_mode{
+    background-color: black;
+    color: #16F529;
+
+}
+
+.dark_mode a {
+    color:#16F529
+}
+
+
+
+.lightswitch{
+    font-size: 0.5rem;
+    position:fixed;
+    right:5%;
+    top: 3%;
+
+}
+
+#dark{
+    display:none;
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 1.5vw;
+    color:black;
+
+}
+
+a:hover{
+    font-size: 2vw;
+}
+
+
+.container{
+    position: fixed;
+    display:grid;
+    margin: 0 auto;
+    top: 25%;
+    left:25%;
+    gap:1rem;
+
+}
+
+.hirahs{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    column-gap:2vw;
+    justify-content: center;
+
+
+}
+
+.website{
+    display: grid;
+    grid-template-columns: repeat(7,auto);
+    column-gap:2vw;
+    justify-content: center;
+}
+
+.intro{
+    display:none;
+    z-index: 100;
+    position:fixed;
+    top: 1vw;
+    left:5vw;
+    font-family: 'Courier New', Courier, monospace;
+    width: 50vw;
+    font-size: 1.5vw ;
+}
+
+.H1:hover .intro{
+    display: block;
+}
