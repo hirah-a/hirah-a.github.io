@@ -21,7 +21,4 @@ function switch1(){
     }
 }
 
-function hovertext(){
-  var target = document.getElementsByClassName("intro");
-  var tooltip = document.getElementsByClassName("H1")
-}
+

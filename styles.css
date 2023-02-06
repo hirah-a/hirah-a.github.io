@@ -78,10 +78,6 @@ a:hover{
     font-size: 1.5vw ;
 }
 
-.H1:hover + .intro{
-    display: block;
-
-}
 
 .spacebar{
     display: none;
